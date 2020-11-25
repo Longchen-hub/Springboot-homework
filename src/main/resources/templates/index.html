@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>首页</h1>
+<p th:text="${msg}"></p>
+<hr>
+
+<a th:href="@{/regist}">用户注册</a>
+<a th:href="@{/user/useremps}">用户进入商城</a>
+<a th:href="@{/user/emps}">管理员进入商城</a>
+</body>
+</html>
